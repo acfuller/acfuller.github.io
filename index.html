@@ -1,33 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
 
-<head>
-  <link rel="stylesheet" href="Port_Styles.css">
-</head>
+    <title>Signin</title>
 
-<title>Adam Fuller's Portfolio</title>
-<div class="hero-image">
-  <div class="hero-text">
-    <h1><center><font size="7">Welcome to<br />Adam Fuller's Portfolio<br /></center></font></h1>
-      <p class="lead"><h2><center><b>Address:</b> 611 N Kansas, Weatherford, OK  <br />
-      <b>Phone:</b>(405)226-2381 <b>E-mail:</b> Acfuller50@gmail.com</br><br /></h2>
-  </div>
-</div
-<body>
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/4.4/examples/sign-in/"
+    />
 
+    <!-- Bootstrap core CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
 
-<h1><b>About</b></h1>
-<p>
-  About me!
-</p>
-
-<h1><b>Projects</b></h1>
-<p>
-  <b>Python Projects: </b><a href="https://github.com/acfuller/Python-Projects">Link to my Python repository</a><br />
-  <b>Mayfly Project: </b><a href="https://swosu.github.io/mayfly/index.html">https://swosu.github.io/mayfly/index.html</a><br />
-
-</p>
-
-</body>
-
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet" />
+  </head>
+  <body class="text-center">
+    <form class="form-signin">
+      <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+      <label for="inputEmail" class="sr-only">Email address</label>
+      <input
+        type="email"
+        id="inputEmail"
+        class="form-control"
+        placeholder="Email address"
+        required
+        autofocus
+      />
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input
+        type="password"
+        id="inputPassword"
+        class="form-control"
+        placeholder="Password"
+        required
+      />
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me" /> Remember me
+        </label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">
+        Sign in
+      </button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2017-2019</p>
+    </form>
+  </body>
 </html>
